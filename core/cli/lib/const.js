@@ -1,10 +1,10 @@
 /*
  * @Author: yxf
  * @Description: In User Settings Edit
- * @FilePath: /imooc-cli-dev/core/cli/lib/const.js
+ * @FilePath: /yxf-cli/core/cli/lib/const.js
  */
 const LOWEST_NODE_VERSION = '16.0.0';
-const DEFAULT_CLI_HOME = '.imooc-cli-dev';
+const DEFAULT_CLI_HOME = '.yxf-cli';
 
 module.exports = {
     LOWEST_NODE_VERSION,

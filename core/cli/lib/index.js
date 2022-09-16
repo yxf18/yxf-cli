@@ -1,7 +1,7 @@
 /*
  * @Author: yxf
  * @Description: In User Settings Edit
- * @FilePath: /imooc-cli-dev/core/cli/lib/index.js
+ * @FilePath: /yxf-cli/core/cli/lib/index.js
  */
 'use strict';
 const path = require('path');

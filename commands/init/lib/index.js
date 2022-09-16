@@ -1,7 +1,7 @@
 /*
  * @Author: yxf
  * @Description: cmomand init
- * @FilePath: /imooc-cli-dev/commands/init/lib/index.js
+ * @FilePath: /yxf-cli/commands/init/lib/index.js
  */
 'use strict';
 const fs = require('fs');
@@ -197,7 +197,8 @@ class initCommand extends Command {
     async downloadTemplate() {
         const { projectTemplate } = this.projectInfo;
         const templateInfo = this.template.find(npm => npm.value === projectTemplate);
-        const targetPath = path.resolve(userHome, ".imooc-cli-dev", 'template');
+        // const targetPath = path.resolve(userHome, ".imooc-cli-dev", 'template');
+        const targetPath = path.resolve(process.env.CLI_HOME_PATH, 'template');
         const storeDir = path.resolve(targetPath, 'node_modules');
         const { value, version } = templateInfo;
         // console.log('[ templateInfo ]', templateInfo)
