@@ -1,0 +1,38 @@
+{
+  "name": "@uimooc-cli-dev/init",
+  "version": "1.0.2",
+  "description": "> TODO: description",
+  "author": "渣渣枫 <yangxf1@health-100.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jihulab.com/yangxuefeng/yxf-cli-lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@uimooc-cli-dev/command": "file:../../models/command",
+    "@uimooc-cli-dev/log": "file:../../utils/log",
+    "@uimooc-cli-dev/package": "file:../../models/package",
+    "@uimooc-cli-dev/request": "file:../../utils/request",
+    "@uimooc-cli-dev/utils": "file:../../utils/utils",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4",
+    "semver": "^7.3.7",
+    "user-home": "^3.0.0"
+  },
+  "gitHead": "527c9ad85787e5f00a723b3ba165126af91f317d"
+}

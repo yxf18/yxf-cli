@@ -1,0 +1,54 @@
+{
+  "name": "@uimooc-cli-dev/core",
+  "version": "1.0.11",
+  "description": "uimooc-cli-dev core",
+  "author": "渣渣枫 <yangxf1@health-100.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack -w"
+  },
+  "dependencies": {
+    "@uimooc-cli-dev/exec": "^1.0.10",
+    "@uimooc-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@uimooc-cli-dev/init": "^1.0.2",
+    "@uimooc-cli-dev/log": "^1.0.10",
+    "@uimooc-cli-dev/utils": "^1.0.10",
+    "axios": "^0.26.0",
+    "colors": "^1.4.0",
+    "commander": "^9.0.0",
+    "dotenv": "^16.0.0",
+    "import-local": "^3.1.0",
+    "minimist": "^1.2.5",
+    "npmlog": "^6.0.1",
+    "path-exists": "^3.0.0",
+    "root-check": "1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/runtime-corejs3": "^7.17.2",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "bin": {
+    "uimooc-cli-dev": "bin/index.js"
+  },
+  "gitHead": "527c9ad85787e5f00a723b3ba165126af91f317d"
+}
