@@ -1,5 +1,5 @@
 {
-  "name": "@uimooc-cli-dev/init",
+  "name": "@yxf-cli/init",
   "version": "1.0.2",
   "description": "> TODO: description",
   "author": "渣渣枫 <yangxf1@health-100.cn>",
@@ -24,11 +24,11 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@uimooc-cli-dev/command": "file:../../models/command",
-    "@uimooc-cli-dev/log": "file:../../utils/log",
-    "@uimooc-cli-dev/package": "file:../../models/package",
-    "@uimooc-cli-dev/request": "file:../../utils/request",
-    "@uimooc-cli-dev/utils": "file:../../utils/utils",
+    "@yxf-cli/command": "file:../../models/command",
+    "@yxf-cli/log": "file:../../utils/log",
+    "@yxf-cli/package": "file:../../models/package",
+    "@yxf-cli/request": "file:../../utils/request",
+    "@yxf-cli/utils": "file:../../utils/utils",
     "fs-extra": "^10.1.0",
     "inquirer": "^8.2.4",
     "semver": "^7.3.7",

@@ -6,7 +6,7 @@
 'use strict';
 const semver = require('semver');
 const colors = require('colors/safe')
-const log = require('@uimooc-cli-dev/log');
+const log = require('@yxf-cli/log');
 
 const LOWEST_NODE_VERSION = '12.0.0'
 
@@ -65,7 +65,7 @@ class Command {
         const currentVersion = process.version
         const lowestVersion = LOWEST_NODE_VERSION
         if (!semver.gte(currentVersion, lowestVersion)) {
-            throw new Error(colors.red(`uimooc-cli-dev 需要安装${lowestVersion}版本及以上的Node.js`))
+            throw new Error(colors.red(`yxf-cli 需要安装${lowestVersion}版本及以上的Node.js`))
         }
     }
 }

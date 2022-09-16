@@ -1,7 +1,7 @@
 {
-  "name": "@uimooc-cli-dev/core",
+  "name": "@yxf-cli/core",
   "version": "1.0.11",
-  "description": "uimooc-cli-dev core",
+  "description": "yxf-cli core",
   "author": "渣渣枫 <yangxf1@health-100.cn>",
   "homepage": "",
   "license": "ISC",
@@ -17,11 +17,11 @@
     "dev": "webpack -w"
   },
   "dependencies": {
-    "@uimooc-cli-dev/exec": "^1.0.10",
-    "@uimooc-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
-    "@uimooc-cli-dev/init": "^1.0.2",
-    "@uimooc-cli-dev/log": "^1.0.10",
-    "@uimooc-cli-dev/utils": "^1.0.10",
+    "@yxf-cli/exec": "^1.0.10",
+    "@yxf-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@yxf-cli/init": "^1.0.2",
+    "@yxf-cli/log": "^1.0.10",
+    "@yxf-cli/utils": "^1.0.10",
     "axios": "^0.26.0",
     "colors": "^1.4.0",
     "commander": "^9.0.0",
@@ -48,7 +48,7 @@
     "webpack-cli": "^4.9.2"
   },
   "bin": {
-    "uimooc-cli-dev": "bin/index.js"
+    "yxf": "bin/index.js"
   },
   "gitHead": "527c9ad85787e5f00a723b3ba165126af91f317d"
 }

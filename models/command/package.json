@@ -1,5 +1,5 @@
 {
-  "name": "@uimooc-cli-dev/command",
+  "name": "@yxf-cli/command",
   "version": "1.0.0",
   "description": "command 基类",
   "author": "渣渣枫 <987061450@qq.com>",
@@ -24,7 +24,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@uimooc-cli-dev/log": "file:../../../../utils/log",
+    "@yxf-cli/log": "file:../../../../utils/log",
     "colors": "^1.4.0",
     "semver": "^7.3.7"
   }

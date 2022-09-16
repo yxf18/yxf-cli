@@ -9,9 +9,9 @@ const semver = require('semver'); // 版本比对
 const colors = require('colors/safe'); // 终端带色文本
 const userHome = require('user-home'); // 用户主目录
 const pathExistsSync = require('path-exists').sync; // 检查路径是否存在
-const log = require("@uimooc-cli-dev/log"); //
-// const init = require('@uimooc-cli-dev/init'); // init命令
-const exec = require('@uimooc-cli-dev/exec'); // 动态加载执行文件
+const log = require("@yxf-cli/log"); //
+// const init = require('@yxf-cli/init'); // init命令
+const exec = require('@yxf-cli/exec'); // 动态加载执行文件
 const constant = require('./const') //
 const pkg = require("../package.json");
 const {
@@ -211,7 +211,7 @@ async function checkGlobalUpdate() {
     // 2. 调用npm API，获取所有版本号
     const {
         getNpmSemverVersion
-    } = require('@uimooc-cli-dev/get-npm-info');
+    } = require('@yxf-cli/get-npm-info');
     const latestVersion = await getNpmSemverVersion(currentVersion, npmName)
     // console.log('[ latestVersion ]', latestVersion)
     if (latestVersion && semver.gt(latestVersion, currentVersion)) {

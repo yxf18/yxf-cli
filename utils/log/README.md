@@ -1,11 +1,11 @@
-# `@uimooc-cli-dev/log`
+# `@yxf-cli/log`
 
 > TODO: description
 
 ## Usage
 
 ```
-const log = require('@uimooc-cli-dev/log');
+const log = require('@yxf-cli/log');
 
 // TODO: DEMONSTRATE API
 ```

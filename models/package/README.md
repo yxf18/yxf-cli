@@ -1,11 +1,11 @@
-# `@uimooc-cli-dev/package`
+# `@yxf-cli/package`
 
 > TODO: description
 
 ## Usage
 
 ```
-const package = require('@uimooc-cli-dev/package');
+const package = require('@yxf-cli/package');
 
 // TODO: DEMONSTRATE API
 ```

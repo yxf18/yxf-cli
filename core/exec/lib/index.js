@@ -6,11 +6,11 @@
 'use strict';
 const path = require('path');
 const cp = require('child_process');
-const Package = require('@uimooc-cli-dev/package');
-const log = require('@uimooc-cli-dev/log');
+const Package = require('@yxf-cli/package');
+const log = require('@yxf-cli/log');
 
 const SETTINGS = {
-  init: '@uimooc-cli-dev/init',
+  init: '@yxf-cli/init',
 };
 const CACHE_DIR = 'dependenices/';
 

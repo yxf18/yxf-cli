@@ -1,11 +1,11 @@
-# `@uimooc-cli-dev/format-path`
+# `@yxf-cli/format-path`
 
 > TODO: description
 
 ## Usage
 
 ```
-const formatPath = require('@uimooc-cli-dev/format-path');
+const formatPath = require('@yxf-cli/format-path');
 
 // TODO: DEMONSTRATE API
 ```

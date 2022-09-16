@@ -10,10 +10,10 @@ const inquirer = require('inquirer');
 const fsExtra = require('fs-extra');
 const semver = require('semver');
 const userHome = require('user-home');
-const log = require('@uimooc-cli-dev/log');
-const Command = require("@uimooc-cli-dev/command");
-const Package = require("@uimooc-cli-dev/package");
-const { spinnerStart, sleep } = require('@uimooc-cli-dev/utils');
+const log = require('@yxf-cli/log');
+const Command = require("@yxf-cli/command");
+const Package = require("@yxf-cli/package");
+const { spinnerStart, sleep } = require('@yxf-cli/utils');
 const { getProjectTemplate } = require('./api');
 
 const TYPE_PROJECT = "project";

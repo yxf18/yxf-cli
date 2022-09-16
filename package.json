@@ -1,7 +1,7 @@
 {
-  "name": "uimooc-cli-dev",
+  "name": "yxf-cli",
   "version": "1.0.0",
-  "description": "uimooc-cli-dev",
+  "description": "yxf-cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +12,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@uimooc-cli-dev/core": "file:core/cli",
+    "@yxf-cli/core": "file:core/cli",
     "commander": "^9.0.0",
     "import-local": "^3.1.0",
     "path-exists": "^5.0.0",

@@ -1,3 +1,3 @@
-const request = require('@uimooc-cli-dev/request');
+const request = require('@yxf-cli/request');
 
 exports.getProjectTemplate = () => request('project/template')
