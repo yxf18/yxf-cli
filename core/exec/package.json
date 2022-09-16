@@ -1,6 +1,6 @@
 {
   "name": "@yxf-cli/exec",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "渣渣枫 <yangxf1@health-100.cn>",
   "homepage": "",
@@ -24,8 +24,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@yxf-cli/log": "^1.0.0",
-    "@yxf-cli/package": "^1.0.0"
+    "@yxf-cli/log": "^1.0.1",
+    "@yxf-cli/package": "^1.0.1"
   },
   "gitHead": "527c9ad85787e5f00a723b3ba165126af91f317d"
 }

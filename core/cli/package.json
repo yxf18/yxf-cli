@@ -1,6 +1,6 @@
 {
   "name": "@yxf-cli/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "yxf-cli core",
   "author": "渣渣枫 <yangxf1@health-100.cn>",
   "homepage": "",
@@ -17,11 +17,11 @@
     "dev": "webpack -w"
   },
   "dependencies": {
-    "@yxf-cli/exec": "^1.0.0",
+    "@yxf-cli/exec": "^1.0.1",
     "@yxf-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@yxf-cli/init": "^1.0.0",
-    "@yxf-cli/log": "^1.0.0",
-    "@yxf-cli/utils": "^1.0.0",
+    "@yxf-cli/init": "^1.0.1",
+    "@yxf-cli/log": "^1.0.1",
+    "@yxf-cli/utils": "^1.0.1",
     "axios": "^0.26.0",
     "colors": "^1.4.0",
     "commander": "^9.0.0",
