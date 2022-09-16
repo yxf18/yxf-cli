@@ -1,20 +1,20 @@
 /*
  * @Author: yxf
  * @Description: npm Package类封装(用于下载更新npm包)
- * @FilePath: /imooc-cli-dev/models/package/lib/index.js
+ * @FilePath: /yxf-cli/models/package/lib/index.js
  */
 'use strict';
 const path = require('path');
 const fse = require('fs-extra');
-const formatPath = require('@umiooc-cli-dev/format-path');
-const { isObject } = require('@umiooc-cli-dev/utils');
+const formatPath = require('@yxf-cli/format-path');
+const { isObject } = require('@yxf-cli/utils');
 const npminstall = require('npminstall');
 const userHome = require('user-home');
 const {
   getDefaultRegistry,
   getNpmLatestVersion,
-} = require('@umiooc-cli-dev/get-npm-info');
-const log = require('@umiooc-cli-dev/log');
+} = require('@yxf-cli/get-npm-info');
+const log = require('@yxf-cli/log');
 // const pathExists = require('path-exists');
 // import { pathExistsSync } from "path-exists"
 let pathExists;

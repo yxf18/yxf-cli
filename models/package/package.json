@@ -1,6 +1,6 @@
 {
   "name": "@yxf-cli/package",
-  "version": "1.0.10",
+  "version": "1.0.0",
   "description": "npm module",
   "author": "渣渣枫 <yangxf1@health-100.cn>",
   "homepage": "",
@@ -25,10 +25,10 @@
     "dev": "webpack -w"
   },
   "dependencies": {
-    "@umiooc-cli-dev/format-path": "file:../../utils/format-path",
-    "@umiooc-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
-    "@umiooc-cli-dev/log": "file:../../utils/log",
-    "@umiooc-cli-dev/utils": "file:../../utils/utils",
+    "@yxf-cli/format-path": "file:../../utils/format-path",
+    "@yxf-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@yxf-cli/log": "file:../../utils/log",
+    "@yxf-cli/utils": "file:../../utils/utils",
     "fs-extra": "^10.0.1",
     "npminstall": "^5.4.1",
     "path-exists": "^5.0.0",
